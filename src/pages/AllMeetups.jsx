@@ -24,8 +24,8 @@ const DUMMY_DATA = [
 
 const AllMeetups = () => {
   return (
-    <section>
-      <h1>All Meetups</h1>
+    <section className='flex justify-center'>
+      <h1 className='mt-5'>All Meetups</h1>
       <MeetupList meetups={DUMMY_DATA} />
     </section>
   )
