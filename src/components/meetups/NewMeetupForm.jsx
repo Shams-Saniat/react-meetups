@@ -9,7 +9,7 @@ function NewMeetupForm() {
 
 
     function submitHandler(event) {
-        event.prventDefault();
+        event.preventDefault();
 
         const enteredTitle = titleInputRef.current.value;
         const enteredImage = imageInputRef.current.value;
