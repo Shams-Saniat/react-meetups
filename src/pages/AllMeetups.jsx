@@ -38,7 +38,7 @@ function AllMeetupsPage() {
 
   return (
     <section className='flex justify-center'>
-      <h1 className='mt-5'>All Meetups</h1>
+      <h1 className='text-2xl'>All Meetups</h1>
       <MeetupList meetups={loadedMeetups} />
     </section>
   );
